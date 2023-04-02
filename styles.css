@@ -1,84 +1,109 @@
 body {
-    font-family: 'Roboto';
+    font-family: "Roboto";
     margin: 0;
-}
-
-.hero {
-    background-color: #1F2937;
-    
-}
-
-.hero-top-dive {
+  }
+  
+  /* Styles of the top hero container */
+  
+  .hero {
+    background-color: #1f2937;
+  }
+  
+  .hero-2 {
+      display: flex;
+      flex-direction: column;
+      margin: auto;
+      max-width: 1100px;
+  }
+  
+  .hero-top-dive {
     display: flex;
-    justify-content: space-around;
-    padding: 20px;
-}
-
-.header-logo {
+    justify-content: space-between;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  
+  .header-logo {
     font-size: 24px;
-    color: #F9FAF8;
+    color: #f9faf8;
     margin: 0;
-}
-
-.hero-top-links {
+  }
+  
+  .hero-top-links {
     display: flex;
     font-size: 18px;
     gap: 25px;
-    color: #E5E7EB;
+    color: #e5e7eb;
     list-style-type: none;
     margin: 0;
     padding: 0;
-}
-
-.hero-top-content {
-display: flex;
-justify-content: center;
-gap: 50px;
-padding: 120px;
-
-}
-
-.hero-info {
+  }
+  
+  .hero-top-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
+    margin-bottom: 120px;
+  }
+  
+  .hero-info {
     display: flex;
     flex-direction: column;
     height: 225px;
     width: 450px;
     justify-content: space-between;
-}
-
-.hero-content-title {
+  }
+  
+  .hero-content-title {
     font-size: 48px;
-    color: #F9FAF8;
+    color: #f9faf8;
     font-weight: bold;
     margin: 0;
-}
-
-.hero-description {
-color: #E5E7EB;
-font-size: 18px;
-margin: 0;
-}
-.hero-button {
+  }
+  
+  .hero-description {
+    color: #e5e7eb;
+    font-size: 18px;
+    margin: 0;
+  }
+  .hero-button {
     align-self: flex-start;
     padding: 8px 30px;
-    background-color: #3882F6;
+    background-color: #3882f6;
     border-radius: 8px;
     border: none;
-    color: #F9FAF8;
+    color: #f9faf8;
     font-size: 18px;
     font-weight: 700;
-}
-
-.hero-placeholder {
+  }
+  
+  .hero-placeholder {
     display: flex;
     justify-content: center;
     background-color: #8a8c92;
     height: 225px;
     width: 510px;
-}
-
-.placeholder-descript {
+  }
+  
+  .placeholder-descript {
     align-self: center;
     margin: 0;
-    color: #E5E7EB;
-}
+    color: #e5e7eb;
+  }
+  
+  /* Second container styles */
+  
+  .container-2 {
+      
+  }
+  
+  .info-title {
+      font-size: 36px;
+      color: #1f2937;
+      align-self: center;
+  }
+  
+  .second-content {
+      display: flex;
+      flex-direction: column;
+  }
